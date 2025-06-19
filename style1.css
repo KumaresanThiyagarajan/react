@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.static {
+  background-color: gray;
+  position: static;
+}
+
+.relative {
+  background-color: blue;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.absolute {
+  background-color: green;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.fixed {
+  background-color: red;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.sticky {
+  background-color: orange;
+  position: sticky;
+  top: 0;
+}
