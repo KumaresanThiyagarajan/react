@@ -5,8 +5,9 @@ const counter = () => {
   return (
     <div>
         <h1> {count} </h1>
-        <button onClick={()=>{setcount(count+1000000)}}> Increment </button>
-        <button onClick={()=>(setcount(count-1000000))}>Decrement</button>
+        <button onClick={()=>{setcount(count+1)}}> Increment </button>
+        <button onClick={()=>(setcount(count-1))}>Decrement</button>
+      <button onClick={()=>(setcount(0))}>reset</button>
     </div>
   )
 }
