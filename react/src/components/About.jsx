@@ -1,8 +1,12 @@
 import React from 'react'
 
-const About = () => {
+const About = (name) => {
   return (
+    
+
     <div className="p-6 max-w-3xl mx-auto">
+          {/* {items.map((fruit)=>(<li key={fruit}>{fruit}</li>))} */}
+          <h1>name in about {name}</h1>
       <h1 className="text-4xl font-bold mb-4 text-center">Interstellar (2014) - Movie Review</h1>
       <p className="text-lg mb-4">
         <strong>Director:</strong> Christopher Nolan<br />
